@@ -1,12 +1,11 @@
-const CACHE_NAME='chipup-v1.3.1';
+const CACHE_NAME='chipup-v1.4';
 const APP_SHELL=[
   './',
   './index.html',
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './icons/apple-touch-icon.png',
-  './칩업_문제은행_양식.xlsx'
+  './icons/apple-touch-icon.png'
 ];
 
 self.addEventListener('install',event=>{
